@@ -1,0 +1,46 @@
+/* cores e estilos compartilhados */
+:root {
+  --background-color: #F5F5F5; /* fundo das páginas de termos e privacidade */
+  --header-color: #6A1B9A;     /* header */
+  --text-color: #333333;       /* texto padrão */
+  --link-color: #6A1B9A;       /* links */
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+header {
+  background-color: var(--header-color);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+  color: #555;
+  margin-top: 40px;
+}
